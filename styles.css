@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    height: 30%;
+    margin: 64px;
+}
+
+.links{
+    color: #424242;
+}
+
+.links a{
+    text-decoration: none;
+    color: inherit;
+    padding: 0.5em;
+    font-size: 4em;
+}
